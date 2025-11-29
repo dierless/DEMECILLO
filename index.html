@@ -10,10 +10,11 @@
     .header {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
     h1 {font-size: 300%; margin: 0; letter-spacing: 3px;}
     .tabs {margin-top: 10px;}
-    .tabs a {display: inline-block; padding: 10px 20px; margin: 0 5px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s;}
-    .tabs a:hover {background-color: #555;}
+    .tabs a {display: inline-block; padding: 10px 20px; margin: 0 5px; background-color: #333; color: white; 
+        text-decoration: none; border-radius: 5px; transition: 0.3s;}
+    .tabs a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     .tabs a.current {background-color: #777; font-weight: bold;}
-    .intro {width: 50%; font-size: larger; margin: 0 auto;}
+    .intro {width: 50%; font-size: large; margin: 0 auto;}
     .map {text-align: center; max-width: 1000px; margin: 20px auto;}
     .map img {width: 100%; height: auto;  border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     .grid {display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding: 20px;}
@@ -23,7 +24,12 @@
     .flag:hover .label {opacity: 1;}
     .label {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; padding: 8px; color: white; 
         font-weight: bold; opacity: 0; transition: 0.3s; font-size: 20px; letter-spacing: 1px; width: 90%; max-width: 180px; overflow-wrap: break-word;}
-    .footer {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
+    .footer {background-color: #1a1a1a; padding: 40px 20px; text-align: center;}
+    .footer h3 {margin: 0 0 20px 0; font-size: 24px; letter-spacing: 2px;}
+    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .resource a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; text-decoration: none; 
+        border-radius: 8px; transition: 0.3s; font-weight: bold; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
+    .resource a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     </style>
 </head>
 <body>
@@ -40,28 +46,132 @@
     <div class="intro">
         <h3>Discover the Flags of Asia</h3>
             <p>
-                <b>Click</b> on any flag to explore its <i>history, symbolism,</i> and distinctive features.<br>
+                <b>Click</b> on any flag to explore its <i>history, symbolism,</i> and <i>distinctive features.</i><br>
                 Learn about the meaning and heritage behind the flags that represent the nations of Asia.
             </p>
     </div>
     
-    <div class="grid">
-        <a href="afghanistan.html" class="flag"><img src="home/afghanistan.png" alt="Flag of Afghanistan"><div class="label">Afghanistan</div></a>
-        <a href="armenia.html" class="flag"><img src="home/armenia.png" alt="Flag of Armenia"><div class="label">Armenia</div></a>
-        <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
-        <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
-        <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
-        <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
-        <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
-    </div>
+<div class="grid">
+    <a href="afghanistan.html" class="flag"><img src="home/afghanistan.png" alt="Flag of Afghanistan"><div class="label">Afghanistan</div></a>
+    <a href="armenia.html" class="flag"><img src="home/armenia.png" alt="Flag of Armenia"><div class="label">Armenia</div></a>
 
+    <!-- (missing) -->
+    <a href="azerbaijan.html" class="flag"><img src="home/azerbaijan.png" alt="Flag of Azerbaijan"><div class="label">Azerbaijan</div></a>
+    <!-- (missing) -->
+    <a href="bahrain.html" class="flag"><img src="home/bahrain.png" alt="Flag of Bahrain"><div class="label">Bahrain</div></a>
+    <!-- (missing) -->
+    <a href="bangladesh.html" class="flag"><img src="home/bangladesh.png" alt="Flag of Bangladesh"><div class="label">Bangladesh</div></a>
+    <!-- (missing) -->
+    <a href="bhutan.html" class="flag"><img src="home/bhutan.png" alt="Flag of Bhutan"><div class="label">Bhutan</div></a>
+    <!-- (missing) -->
+    <a href="brunei.html" class="flag"><img src="home/brunei.png" alt="Flag of Brunei"><div class="label">Brunei</div></a>
+    <!-- (missing) -->
+    <a href="cambodia.html" class="flag"><img src="home/cambodia.png" alt="Flag of Cambodia"><div class="label">Cambodia</div></a>
+
+    <a href="china.html" class="flag"><img src="home/china.png" alt="Flag of China"><div class="label">China</div></a>
+
+    <!-- (missing) -->
+    <a href="cyprus.html" class="flag"><img src="home/cyprus.png" alt="Flag of Cyprus"><div class="label">Cyprus</div></a>
+    <!-- (missing) -->
+    <a href="georgia.html" class="flag"><img src="home/georgia.png" alt="Flag of Georgia"><div class="label">Georgia</div></a>
+
+    <a href="india.html" class="flag"><img src="home/india.png" alt="Flag of India"><div class="label">India</div></a>
+
+    <!-- (missing) -->
+    <a href="indonesia.html" class="flag"><img src="home/indonesia.png" alt="Flag of Indonesia"><div class="label">Indonesia</div></a>
+    <!-- (missing) -->
+    <a href="iran.html" class="flag"><img src="home/iran.png" alt="Flag of Iran"><div class="label">Iran</div></a>
+    <!-- (missing) -->
+    <a href="iraq.html" class="flag"><img src="home/iraq.png" alt="Flag of Iraq"><div class="label">Iraq</div></a>
+    <!-- (missing) -->
+    <a href="israel.html" class="flag"><img src="home/israel.png" alt="Flag of Israel"><div class="label">Israel</div></a>
+
+    <a href="japan.html" class="flag"><img src="home/japan.png" alt="Flag of Japan"><div class="label">Japan</div></a>
+
+    <!-- (missing) -->
+    <a href="jordan.html" class="flag"><img src="home/jordan.png" alt="Flag of Jordan"><div class="label">Jordan</div></a>
+    <!-- (missing) -->
+    <a href="kazakhstan.html" class="flag"><img src="home/kazakhstan.png" alt="Flag of Kazakhstan"><div class="label">Kazakhstan</div></a>
+    <!-- (missing) -->
+    <a href="kuwait.html" class="flag"><img src="home/kuwait.png" alt="Flag of Kuwait"><div class="label">Kuwait</div></a>
+    <!-- (missing) -->
+    <a href="kyrgyzstan.html" class="flag"><img src="home/kyrgyzstan.png" alt="Flag of Kyrgyzstan"><div class="label">Kyrgyzstan</div></a>
+    <!-- (missing) -->
+    <a href="laos.html" class="flag"><img src="home/laos.png" alt="Flag of Laos"><div class="label">Laos</div></a>
+    <!-- (missing) -->
+    <a href="lebanon.html" class="flag"><img src="home/lebanon.png" alt="Flag of Lebanon"><div class="label">Lebanon</div></a>
+    <!-- (missing) -->
+    <a href="malaysia.html" class="flag"><img src="home/malaysia.png" alt="Flag of Malaysia"><div class="label">Malaysia</div></a>
+    <!-- (missing) -->
+    <a href="maldives.html" class="flag"><img src="home/maldives.png" alt="Flag of Maldives"><div class="label">Maldives</div></a>
+    <!-- (missing) -->
+    <a href="mongolia.html" class="flag"><img src="home/mongolia.png" alt="Flag of Mongolia"><div class="label">Mongolia</div></a>
+    <!-- (missing) -->
+    <a href="myanmar.html" class="flag"><img src="home/myanmar.png" alt="Flag of Myanmar"><div class="label">Myanmar</div></a>
+    <!-- (missing) -->
+    <a href="nepal.html" class="flag"><img src="home/nepal.png" alt="Flag of Nepal"><div class="label">Nepal</div></a>
+    <!-- (missing) -->
+    <a href="north-korea.html" class="flag"><img src="home/north-korea.png" alt="Flag of North Korea"><div class="label">North Korea</div></a>
+    <!-- (missing) -->
+    <a href="oman.html" class="flag"><img src="home/oman.png" alt="Flag of Oman"><div class="label">Oman</div></a>
+    <!-- (missing) -->
+    <a href="pakistan.html" class="flag"><img src="home/pakistan.png" alt="Flag of Pakistan"><div class="label">Pakistan</div></a>
+    <!-- (missing) -->
+    <a href="palestine.html" class="flag"><img src="home/palestine.png" alt="Flag of Palestine"><div class="label">Palestine</div></a>
+
+    <a href="philippines.html" class="flag"><img src="home/philippines.png" alt="Flag of The Philippines"><div class="label">The Philippines</div></a>
+
+    <!-- (missing) -->
+    <a href="qatar.html" class="flag"><img src="home/qatar.png" alt="Flag of Qatar"><div class="label">Qatar</div></a>
+    <!-- (missing) -->
+    <a href="saudi-arabia.html" class="flag"><img src="home/saudi-arabia.png" alt="Flag of Saudi Arabia"><div class="label">Saudi Arabia</div></a>
+    <!-- (missing) -->
+    <a href="singapore.html" class="flag"><img src="home/singapore.png" alt="Flag of Singapore"><div class="label">Singapore</div></a>
+
+    <a href="south-korea.html" class="flag"><img src="home/south-korea.png" alt="Flag of South Korea"><div class="label">South Korea</div></a>
+
+    <!-- (missing) -->
+    <a href="sri-lanka.html" class="flag"><img src="home/sri-lanka.png" alt="Flag of Sri Lanka"><div class="label">Sri Lanka</div></a>
+    <!-- (missing) -->
+    <a href="syria.html" class="flag"><img src="home/syria.png" alt="Flag of Syria"><div class="label">Syria</div></a>
+    <!-- (missing) -->
+    <a href="taiwan.html" class="flag"><img src="home/taiwan.png" alt="Flag of Taiwan"><div class="label">Taiwan</div></a>
+    <!-- (missing) -->
+    <a href="tajikistan.html" class="flag"><img src="home/tajikistan.png" alt="Flag of Tajikistan"><div class="label">Tajikistan</div></a>
+
+    <a href="thailand.html" class="flag"><img src="home/thailand.png" alt="Flag of Thailand"><div class="label">Thailand</div></a>
+
+    <!-- (missing) -->
+    <a href="timor-leste.html" class="flag"><img src="home/timor-leste.png" alt="Flag of Timor-Leste"><div class="label">Timor-Leste</div></a>
+    <!-- (missing) -->
+    <a href="turkey.html" class="flag"><img src="home/turkey.png" alt="Flag of Turkey"><div class="label">Turkey</div></a>
+    <!-- (missing) -->
+    <a href="turkmenistan.html" class="flag"><img src="home/turkmenistan.png" alt="Flag of Turkmenistan"><div class="label">Turkmenistan</div></a>
+    <!-- (missing) -->
+    <a href="uae.html" class="flag"><img src="home/uae.png" alt="Flag of United Arab Emirates"><div class="label">United Arab Emirates</div></a>
+    <!-- (missing) -->
+    <a href="uzbekistan.html" class="flag"><img src="home/uzbekistan.png" alt="Flag of Uzbekistan"><div class="label">Uzbekistan</div></a>
+    <!-- (missing) -->
+    <a href="vietnam.html" class="flag"><img src="home/vietnam.png" alt="Flag of Vietnam"><div class="label">Vietnam</div></a>
+    <!-- (missing) -->
+    <a href="yemen.html" class="flag"><img src="home/yemen.png" alt="Flag of Yemen"><div class="label">Yemen</div></a>
+
+</div>
+    </div>
     <div class="map">
         <p>Map of Asia</p>
         <img src="home/asia-map-chart.png" alt="Map of Asia">
     </div>
 
     <div class="footer">
-    <p>head, shoulder, knees & toes</p>
-</div>
+        <h3>Resources</h3>
+        <div class="resource">
+            <a href="https://flagpedia.net/continent/asia">Flagpedia</a>
+            <a href="https://en.wikipedia.org/wiki/Flags_of_Asia">Wikipedia</a>
+            <a href="https://www.countryflags.com/asia/">Countryflags</a>
+            <a href="https://flagsbook.com/flags-of-asia/">Flagsbook</a>
+            <a href="https://www.mapchart.net/asia.html">MapChart</a>
+        </div>
+    </div>
 </body>
 </html>
