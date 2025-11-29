@@ -9,11 +9,17 @@
     body {font-family: 'century gothic'; background-color: #0d0d0d; color: white; text-align: center; margin: 0; padding: 0;}
     .header {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
     h1 {font-size: 300%; margin: 0; letter-spacing: 3px;}
-    .tabs {margin-top: 10px;}
-    .tabs a {display: inline-block; padding: 10px 20px; margin: 0 5px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; transition: 0.3s;}
-    .tabs a:hover {background-color: #555;}
+    .tabs {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 10px;}
+    .tabs a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; 
+        text-decoration: none; border-radius: 8px; transition: 0.3s; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
+    .tabs a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     .tabs a.current {background-color: #777; font-weight: bold;}
-    .footer {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
+    .footer {background-color: #1a1a1a; padding: 40px 20px; text-align: center;}
+    .footer h3 {margin: 0 0 20px 0; font-size: 24px; letter-spacing: 2px;}
+    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
+    .resource a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; text-decoration: none; 
+        border-radius: 8px; transition: 0.3s; font-weight: bold; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
+    .resource a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
     </style>
 </head>
 <body>
@@ -32,7 +38,15 @@
     </div>
     
     <div class="footer">
-    <p>dierlesser</p>
+        <h3>Resources</h3>
+        <div class="resource">
+            <a href="https://flagpedia.net/continent/asia">Flagpedia</a>
+            <a href="https://en.wikipedia.org/wiki/Flags_of_Asia">Wikipedia</a>
+            <a href="https://www.countryflags.com/asia/">Countryflags</a>
+            <a href="https://flagsbook.com/flags-of-asia/">Flagsbook</a>
+            <a href="https://www.mapchart.net/asia.html">MapChart</a>
+        </div>
+    </div>
 </div>
 </body>
 </html>
