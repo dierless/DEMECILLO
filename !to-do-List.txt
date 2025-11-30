@@ -4,6 +4,7 @@
 	- meaning / special Display
 	- country description / citizen values
 
+in-page; flags; maps:
 (complete) Afghanistan
 (complete) Armenia
 Azerbaijan
@@ -53,5 +54,6 @@ Turkmenistan
 United Arab Emirates
 Uzbekistan
 Vietnam
-
 Yemen
+
+
