@@ -5,23 +5,23 @@
 	- country description / citizen values
 
 in-page; flags; maps:
-(complete) Afghanistan
-(complete) Armenia
+- (complete) Afghanistan
+- (complete) Armenia
 Azerbaijan
 Bahrain
 Bangladesh
 Bhutan
 Brunei
 Cambodia
-(complete) China
+- (complete) China
 Cyprus
 Georgia
-(complete) India 
+- (complete) India 
 Indonesia
 Iran
 Iraq
 Israel
-(complete) Japan
+- (complete) Japan
 Jordan
 Kazakhstan
 Kuwait
@@ -37,23 +37,24 @@ North Korea
 Oman
 Pakistan
 Palestine
-(complete)Philippines
+- (complete) Philippines
 Qatar
 Russia
 Saudi Arabia
 Singapore
-(complete) South Korea
+- (complete) South Korea
 Sri Lanka
 Syria
 Taiwan
 Tajikistan
-(complete) Thailand
+- (complete) Thailand
 Timor-Leste (East Timor)
 Turkey
 Turkmenistan
 United Arab Emirates
 Uzbekistan
-Vietnam
+- (complete) Vietnam
 Yemen
+
 
 
