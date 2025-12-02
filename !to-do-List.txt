@@ -7,10 +7,10 @@
 - (complete) Afghanistan
 - (complete) Armenia
 - (complete) Azerbaijan
-Bahrain
+- (complete) Bahrain
 Bangladesh
 Bhutan
-Brunei
+- (complete) Brunei
 Cambodia
 - (complete) China
 Cyprus
