@@ -19,19 +19,19 @@
 -	(complete) Armenia
 -	(complete) Azerbaijan
 -	(complete) Bahrain
-Bangladesh
-Bhutan
+-	(complete) Bangladesh
+-	(complete) Bhutan
 -	(complete) Brunei
-Cambodia
+-	(complete) Cambodia
 -	(complete) China
-Cyprus
-Georgia
+-	(complete) Cyprus	NO MAP
+-	(complete) Georgia
 -	(complete) Hong Kong
 -	(complete) India 
 -	(complete) Indonesia
-Iran
-Iraq
-Israel
+-	(complete) Iran
+-	(complete) Iraq
+-	(complete) Israel
 -	(complete) Japan
 Jordan
 Kazakhstan
