@@ -1,5 +1,5 @@
 # Flags-of-Asia
-Topic - Flag Related Symbolism
+Flag Related Symbolism
 
 <h3>for flag images and description:</h3>
 https://flagpedia.net/continent/asia <br>
