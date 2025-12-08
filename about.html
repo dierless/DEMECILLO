@@ -3,200 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flags of ASIA : About</title>
+    <title>Flags of ASIA : Index</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
-    body {font-family: 'century gothic'; background-color: #0d0d0d; color: white; text-align: center; margin: 0; padding: 0;}
-    .header {background-color: #1a1a1a; padding: 20px ; text-align: center;}
-    .tabs {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 10px;}
+    body {font-family: 'century gothic'; background: linear-gradient(135deg, #0d0d0d 0%, #222222 100%); color: white; text-align: center; margin: 0; padding: 0; overflow-x: hidden;}
+    .header {background-color: #1a1a1a; padding: 30px 0; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.5);}
+    .tabs {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 15px;}
     .tabs a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; 
-        text-decoration: none; border-radius: 8px; transition: 0.3s; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
-    .tabs a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
-    .tabs a.current {background-color: #777; font-weight: bold;}
-    .content {width: 90%; font-size: large; margin: auto; text-align: center;}
+        text-decoration: none; border-radius: 8px; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); position: relative;}
+    .tabs a:hover {background-color: #555; transform: translateY(-3px) scale(1.05); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);}
+    .tabs a.current {background-color: #777; font-weight: bold; box-shadow: inset 0 0 10px rgba(255,255,255,0.2);}
+    .content {width: 90%; max-width: 1200px; margin: 0 auto; text-align: left; padding: 20px;}
+    .content h2 {color: #fff; font-size: 35px; margin-bottom: 20px; border-bottom: 2px solid #555; padding-bottom: 10px;}
+    .content h3 {color: #ccc; font-size: 26px; margin-top: 30px; margin-bottom: 15px;}
+    .content p {line-height: 1.6; font-size: 16px;}
+    .section {background-color: #1a1a1a; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.3); transition: 0.3s ease;}
+    .section:hover {transform: translateY(-5px);}
+    .stats {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;}
+    .stat {background-color: #333; padding: 15px; border-radius: 8px; width: 200px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.3); transition: 0.3s ease;}
+    .stat:hover {transform: scale(1.05);}
+    .stat h4 {color: #fff; font-size: 24px; margin-bottom: 5px;}
+    .stat p {color: #ccc; font-size: 14px;}
     .legend {column-count: 5; column-gap: 20px; column-rule: 2px solid #333; text-align: left;}
-    .letter {break-inside: avoid; margin-bottom: 20px;}
-    .lettern h3 {color: #fff; font-size: large; margin-bottom: 10px;}
-    .letter ul {list-style-type: none; padding: 0;}
-    .letter li {margin-bottom: 5px;}
-    .letter a {color: #ccc; text-decoration: none;}
-    .letter a:hover {color: #fff;}
-    .footer {background-color: #1a1a1a; padding: 30px 20px; text-align: center;}
-    .footer h3 {margin: 0 0 20px 0; font-size: 24px; letter-spacing: 2px;}
-    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
-    .resource a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; text-decoration: none; 
-        border-radius: 8px; transition: 0.3s; font-weight: bold; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
-    .resource a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+    .segment {break-inside: avoid; margin-bottom: 20px;}
+    .segment h3 {color: #fff; font-size: 20px; margin-bottom: 10px;}
+    .segment ul {list-style-type: none; padding: 0;}
+    .segment li {margin-bottom: 5px; transition: 0.3s ease;}
+    .segment li:hover {background-color: rgba(255,255,255,0.1); padding: 5px; border-radius: 4px;}
+    .segment a {color: #ccc; text-decoration: none; display: block; padding: 2px;}
+    .segment a:hover {color: #fff;}
+    .footer {background-color: #1a1a1a; padding: 40px 20px; text-align: center; box-shadow: 0 -4px 8px rgba(0,0,0,0.5);}
+    .footer h3 {margin: 0 0 25px 0; font-size: 24px; letter-spacing: 2px; color: #fff;}
+    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
+    .resource a {display: inline-block; padding: 15px 30px; background: linear-gradient(135deg, #333 0%, #555 100%); color: white; text-decoration: none; 
+        border-radius: 10px; transition: all 0.3s ease; font-weight: bold; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); position: relative; overflow: hidden;}
+    .resource a:hover {transform: translateY(-3px) scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);}
     </style>
 </head>
 <body>
     <div class="header">
-        <img src="header-title.png" alt="FLAGS OF ASIA" style="width: 51.1%;">
+        <img src="header-title.png" alt="FLAGS OF ASIA" style="width: 50%;">
         <div class="tabs">
             <a href="index.html">Home</a>
-            <a href="#">History</a>
+            <a href="history.html">History</a>
             <a href="map.html">Map</a>
-            <a href="about.html" class="current">About</a>
+            <a href="about.html" class="current">Index</a>
         </div>
     </div>
 
     <div class="content">
-        <h2>Legend</h2>
-        <div class="legend">
-            <div class="letter">
-                <h3>A</h3>
-                <ul>
-                    <li><a href="afghanistan.html">Afghanistan</a></li>
-                    <li><a href="armenia.html">Armenia</a></li>
-                    <li><a href="azerbaijan.html">Azerbaijan</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>B</h3>
-                <ul>
-                    <li><a href="bahrain.html">Bahrain</a></li>
-                    <li><a href="bangladesh.html">Bangladesh</a></li>
-                    <li><a href="bhutan.html">Bhutan</a></li>
-                    <li><a href="brunei.html">Brunei</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>C</h3>
-                <ul>
-                    <li><a href="cambodia.html">Cambodia</a></li>
-                    <li><a href="china.html">China</a></li>
-                    <li><a href="cyprus.html">Cyprus</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>G</h3>
-                <ul>
-                    <li><a href="georgia.html">Georgia</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>H</h3>
-                <ul>
-                    <li><a href="hong-kong.html">Hong Kong</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>I</h3>
-                <ul>
-                    <li><a href="india.html">India</a></li>
-                    <li><a href="indonesia.html">Indonesia</a></li>
-                    <li><a href="iran.html">Iran</a></li>
-                    <li><a href="iraq.html">Iraq</a></li>
-                    <li><a href="israel.html">Israel</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>J</h3>
-                <ul>
-                    <li><a href="japan.html">Japan</a></li>
-                    <li><a href="jordan.html">Jordan</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>K</h3>
-                <ul>
-                    <li><a href="kazakhstan.html">Kazakhstan</a></li>
-                    <li><a href="kuwait.html">Kuwait</a></li>
-                    <li><a href="kyrgyzstan.html">Kyrgyzstan</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>L</h3>
-                <ul>
-                    <li><a href="laos.html">Laos</a></li>
-                    <li><a href="lebanon.html">Lebanon</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>M</h3>
-                <ul>
-                    <li><a href="malaysia.html">Malaysia</a></li>
-                    <li><a href="maldives.html">Maldives</a></li>
-                    <li><a href="mongolia.html">Mongolia</a></li>
-                    <li><a href="myanmar.html">Myanmar</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>N</h3>
-                <ul>
-                    <li><a href="nepal.html">Nepal</a></li>
-                    <li><a href="north-korea.html">North Korea</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>O</h3>
-                <ul>
-                    <li><a href="oman.html">Oman</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>P</h3>
-                <ul>
-                    <li><a href="pakistan.html">Pakistan</a></li>
-                    <li><a href="palestine.html">Palestine</a></li>
-                    <li><a href="philippines.html">Philippines</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>Q</h3>
-                <ul>
-                    <li><a href="qatar.html">Qatar</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>R</h3>
-                <ul>
-                    <li><a href="russia.html">Russia</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>S</h3>
-                <ul>
-                    <li><a href="saudi-arabia.html">Saudi Arabia</a></li>
-                    <li><a href="singapore.html">Singapore</a></li>
-                    <li><a href="south-korea.html">South Korea</a></li>
-                    <li><a href="sri-lanka.html">Sri Lanka</a></li>
-                    <li><a href="syria.html">Syria</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>T</h3>
-                <ul>
-                    <li><a href="taiwan.html">Taiwan</a></li>
-                    <li><a href="tajikistan.html">Tajikistan</a></li>
-                    <li><a href="thailand.html">Thailand</a></li>
-                    <li><a href="timor-leste.html">Timor-Leste</a></li>
-                    <li><a href="turkey.html">Turkey</a></li>
-                    <li><a href="turkmenistan.html">Turkmenistan</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>U</h3>
-                <ul>
-                    <li><a href="united-arab-emirates.html">United Arab Emirates</a></li>
-                    <li><a href="uzbekistan.html">Uzbekistan</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>V</h3>
-                <ul>
-                    <li><a href="vietnam.html">Vietnam</a></li>
-                </ul>
-            </div>
-            <div class="letter">
-                <h3>Y</h3>
-                <ul>
-                    <li><a href="yemen.html">Yemen</a></li>
-                </ul>
+        <div class="section">
+            <h2>Index</h2>
+            <p>Index of Asian nations and regions. Explore flags, histories, and cultures from across the continent. </p>
+        </div>
+
+        <div class="section">
+            <h3>Quick Stats on Asia</h3>
+            <div class="stats">
+                <div class="stat">
+                    <h4>51</h4>
+                    <p>Nations & Regions</p>
+                </div>
+                <div class="stat">
+                    <h4>4.6B+</h4>
+                    <p>Population</p>
+                </div>
+                <div class="stat">
+                    <h4>44.5M km²</h4>
+                    <p>Land Area</p>
+                </div>
+                <div class="stat">
+                    <h4>48</h4>
+                    <p>Sovereign States</p>
+                </div>
             </div>
         </div>
-        <p style="font-size: small; margin-top: 20px; text-align: center;">Note: This list includes 51 asian nations and regions (sovereign states, disputed territories, and sub-national entities like Hong Kong). For maps, refer to resources like Flagpedia or Wikipedia.</p>
-        <a href="!to-do-List.txt">! to do list !</a>
+
+        <div class="section">
+            <h3>Legend</h3>
+            <div class="legend">
+                <div class="segment">
+                    <h3>A</h3>
+                    <ul>
+                        <li><a href="afghanistan.html">Afghanistan</a></li>
+                        <li><a href="armenia.html">Armenia</a></li>
+                        <li><a href="azerbaijan.html">Azerbaijan</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>B</h3>
+                    <ul>
+                        <li><a href="bahrain.html">Bahrain</a></li>
+                        <li><a href="bangladesh.html">Bangladesh</a></li>
+                        <li><a href="bhutan.html">Bhutan</a></li>
+                        <li><a href="brunei.html">Brunei</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>C</h3>
+                    <ul>
+                        <li><a href="cambodia.html">Cambodia</a></li>
+                        <li><a href="china.html">China</a></li>
+                        <li><a href="cyprus.html">Cyprus</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>G</h3>
+                    <ul>
+                        <li><a href="georgia.html">Georgia</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>H</h3>
+                    <ul>
+                        <li><a href="hong-kong.html">Hong Kong</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>I</h3>
+                    <ul>
+                        <li><a href="india.html">India</a></li>
+                        <li><a href="indonesia.html">Indonesia</a></li>
+                        <li><a href="iran.html">Iran</a></li>
+                        <li><a href="iraq.html">Iraq</a></li>
+                        <li><a href="israel.html">Israel</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>J</h3>
+                    <ul>
+                        <li><a href="japan.html">Japan</a></li>
+                        <li><a href="jordan.html">Jordan</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>K</h3>
+                    <ul>
+                        <li><a href="kazakhstan.html">Kazakhstan</a></li>
+                        <li><a href="kuwait.html">Kuwait</a></li>
+                        <li><a href="kyrgyzstan.html">Kyrgyzstan</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>L</h3>
+                    <ul>
+                        <li><a href="laos.html">Laos</a></li>
+                        <li><a href="lebanon.html">Lebanon</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>M</h3>
+                    <ul>
+                        <li><a href="malaysia.html">Malaysia</a></li>
+                        <li><a href="maldives.html">Maldives</a></li>
+                        <li><a href="mongolia.html">Mongolia</a></li>
+                        <li><a href="myanmar.html">Myanmar</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>N</h3>
+                    <ul>
+                        <li><a href="nepal.html">Nepal</a></li>
+                        <li><a href="north-korea.html">North Korea</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>O</h3>
+                    <ul>
+                        <li><a href="oman.html">Oman</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>P</h3>
+                    <ul>
+                        <li><a href="pakistan.html">Pakistan</a></li>
+                        <li><a href="palestine.html">Palestine</a></li>
+                        <li><a href="philippines.html">Philippines</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>Q</h3>
+                    <ul>
+                        <li><a href="qatar.html">Qatar</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>R</h3>
+                    <ul>
+                        <li><a href="russia.html">Russia</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>S</h3>
+                    <ul>
+                        <li><a href="saudi-arabia.html">Saudi Arabia</a></li>
+                        <li><a href="singapore.html">Singapore</a></li>
+                        <li><a href="south-korea.html">South Korea</a></li>
+                        <li><a href="sri-lanka.html">Sri Lanka</a></li>
+                        <li><a href="syria.html">Syria</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>T</h3>
+                    <ul>
+                        <li><a href="taiwan.html">Taiwan</a></li>
+                        <li><a href="tajikistan.html">Tajikistan</a></li>
+                        <li><a href="thailand.html">Thailand</a></li>
+                        <li><a href="timor-leste.html">Timor-Leste</a></li>
+                        <li><a href="turkey.html">Turkey</a></li>
+                        <li><a href="turkmenistan.html">Turkmenistan</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>U</h3>
+                    <ul>
+                        <li><a href="united-arab-emirates.html">United Arab Emirates</a></li>
+                        <li><a href="uzbekistan.html">Uzbekistan</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>V</h3>
+                    <ul>
+                        <li><a href="vietnam.html">Vietnam</a></li>
+                    </ul>
+                </div>
+                <div class="segment">
+                    <h3>Y</h3>
+                    <ul>
+                        <li><a href="yemen.html">Yemen</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p style="font-size: 14px; margin-top: 20px; text-align: center;">Note: This list includes 51 Asian nations and regions (sovereign states, disputed territories, and sub-national entities like Hong Kong). For maps, refer to resources like Flagpedia or Wikipedia.</p>
     </div>
     
     <div class="footer">
@@ -204,6 +243,7 @@
         <div class="resource">
             <a href="https://flagpedia.net/continent/asia">Flagpedia</a>
             <a href="https://en.wikipedia.org/wiki/Flags_of_Asia">Wikipedia</a>
+            <a href="https://commons.wikimedia.org/wiki/Historical_flags">Wikimedia</a>
             <a href="https://www.countryflags.com/asia/">Countryflags</a>
             <a href="https://flagsbook.com/flags-of-asia/">Flagsbook</a>
             <a href="https://www.mapchart.net/asia.html">MapChart</a>

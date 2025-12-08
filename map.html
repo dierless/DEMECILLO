@@ -6,24 +6,28 @@
     <title>Flags of Asia : Map</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
-    body {font-family: 'century gothic'; background-color: #0d0d0d; color: white; text-align: center; margin: 0; padding: 0;}
-    .header {background-color: #1a1a1a; padding: 20px 0; text-align: center;}
-    .tabs {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 10px;}
+    body {font-family: 'century gothic'; background: linear-gradient(135deg, #0d0d0d 0%, #222222 100%); color: white; text-align: center; margin: 0; padding: 0; overflow-x: hidden;}
+    .header {background-color: #1a1a1a; padding: 30px 0; text-align: center; box-shadow: 0 4px 8px rgba(0,0,0,0.5);}
+    .tabs {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 15px;}
     .tabs a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; 
-        text-decoration: none; border-radius: 8px; transition: 0.3s; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
-    .tabs a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
-    .tabs a.current {background-color: #777; font-weight: bold;}
-    .intro {width: 50%; font-size: large; margin: 0 auto;}
+        text-decoration: none; border-radius: 8px; transition: all 0.3s ease; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); position: relative;}
+    .tabs a:hover {background-color: #555; transform: translateY(-3px) scale(1.05); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);}
+    .tabs a.current {background-color: #777; font-weight: bold; box-shadow: inset 0 0 10px rgba(255,255,255,0.2);}
+    .content {width: 90%; max-width: 1000px; margin: 0 auto; text-align: left; padding: 20px;}
+    .content h2 {color: #fff; font-size: 35px; margin-bottom: 20px; border-bottom: 2px solid #555; padding-bottom: 10px;}
+    .content h3 {color: #ccc; font-size: 26px; margin-top: 30px; margin-bottom: 15px;}
+    .content p {line-height: 1.6; font-size: 16px;}
+    .segment {background-color: #1a1a1a; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.3); transition: 0.3s ease;}
+    .segment:hover {transform: translateY(-5px);}
     .map {text-align: center; margin: 35px auto;}
     .map img {width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); max-width: 1100px; margin-top: 20px;}
     .map img.world {max-width: 1500px;}
-    .text {width: 70%; margin: 20px auto; padding: 20px; background-color: #1a1a1a; border-radius: 12px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
-    .footer {background-color: #1a1a1a; padding: 30px 20px; text-align: center;}
-    .footer h3 {margin: 0 0 20px 0; font-size: 24px; letter-spacing: 2px;}
-    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;}
-    .resource a {display: inline-block; padding: 12px 24px; background-color: #333; color: white; text-decoration: none; 
-        border-radius: 8px; transition: 0.3s; font-weight: bold; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);}
-    .resource a:hover {background-color: #555; transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);}
+    .footer {background-color: #1a1a1a; padding: 40px 20px; text-align: center; box-shadow: 0 -4px 8px rgba(0,0,0,0.5);}
+    .footer h3 {margin: 0 0 25px 0; font-size: 24px; letter-spacing: 2px; color: #fff;}
+    .resource {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;}
+    .resource a {display: inline-block; padding: 15px 30px; background: linear-gradient(135deg, #333 0%, #555 100%); color: white; text-decoration: none; 
+        border-radius: 10px; transition: all 0.3s ease; font-weight: bold; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); position: relative; overflow: hidden;}
+    .resource a:hover {transform: translateY(-3px) scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);}
     </style>
 </head>
 <body>
@@ -31,50 +35,59 @@
         <img src="header-title.png" alt="FLAGS OF ASIA" style="width: 50%;">
         <div class="tabs">
             <a href="index.html">Home</a>
-            <a href="#">History</a>
+            <a href="history.html">History</a>
             <a href="map.html" class="current">Map</a>
-            <a href="about.html">About</a>
+            <a href="about.html">Index</a>
         </div>
     </div>
 
-    <div class="intro">
-        <h3>Maps of Asia</h3>
-        <p>
-            Discover the geographical layout of Asia and its place in the world through these maps.
-        </p>
-    </div>
+    <div class="content">
+        <div class="segment">
+            <h3>Maps of Asia</h3>
+            <p>
+                Discover the geographical layout of Asia and its place in the world through these maps.
+            </p>
+        </div>
 
-    <div class="text">
-        <h2>Map of the World</h2>
-        <p>
-            This world map provides a global context, showing Asia's vast expanse and its connections to other continents. Asia, the largest continent, covers about 30% of Earth's land area and is home to over 4.6 billion people, representing diverse cultures, economies, and landscapes from the icy tundras of Siberia to the tropical islands of Southeast Asia.
-        </p>
-    </div>
-    
-    <div class="map">
-        <img src="maps/map-world.png" alt="Map of The World" class="world">
-    </div>
+        <div class="segment">
+            <h2>Map of the World</h2>
+            <p>
+                This world map provides a global context, showing Asia's vast expanse and its connections to other continents. Asia, the largest continent, 
+                covers about 30% of Earth's land area and is home to over 4.6 billion people, representing diverse cultures, economies, 
+                and landscapes from the icy tundras of Siberia to the tropical islands of Southeast Asia.
+            </p>
+        </div>
+        
+        <div class="map">
+            <img src="maps/map-world.png" alt="Map of The World" class="world">
+        </div>
 
-    <div class="text">
-        <h2>Map of Asia</h2>
-        <p>
-            The map of Asia highlights the continent's boundaries, major countries, and key geographical features. Spanning from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the Indian Ocean in the south, Asia includes iconic landmarks like the Himalayas, the Gobi Desert, and bustling metropolises such as Tokyo and Mumbai. It encompasses 48 countries, each with unique flags and histories.
-        </p>
-    </div>
-    
-    <div class="map">
-        <img src="maps/map-asia.png" alt="Map of Asia">
-    </div>
+        <div class="segment">
+            <h2>Map of Asia</h2>
+            <p>
+                The map of Asia highlights the continent's boundaries, major countries, and key geographical features. 
+                Spanning from the Ural Mountains in the west to the Pacific Ocean in the east, and from the Arctic Ocean in the north to the Indian Ocean in the south, 
+                Asia includes iconic landmarks like the Himalayas, the Gobi Desert, and bustling metropolises such as Tokyo and Mumbai. 
+                It encompasses 48 countries, each with unique flags and histories.
+            </p>
+        </div>
+        
+        <div class="map">
+            <img src="maps/map-asia.png" alt="Map of Asia">
+        </div>
 
-    <div class="text">
-        <h2>Map of Asian Provinces/Regions</h2>
-        <p>
-            This map illustrates the various provinces or sub-regions of Asia, dividing the continent into areas such as East Asia, Southeast Asia, South Asia, Central Asia, West Asia, and North Asia. These divisions help understand the cultural, political, and geographical diversity within Asia, from the mountainous regions of Central Asia to the archipelagos of Southeast Asia.
-        </p>
-    </div>
-    
-    <div class="map">
-        <img src="maps/map-asia-regions.png" alt="Map of Asian Provinces/Regions">
+        <div class="segment">
+            <h2>Map of Asian Provinces/Regions</h2>
+            <p>
+                This map illustrates the various provinces or sub-regions of Asia, dividing the continent into areas such as East Asia, Southeast Asia, South Asia, 
+                Central Asia, West Asia, and North Asia. These divisions help understand the cultural, political, and geographical diversity within Asia, 
+                from the mountainous regions of Central Asia to the archipelagos of Southeast Asia.
+            </p>
+        </div>
+        
+        <div class="map">
+            <img src="maps/map-asia-regions.png" alt="Map of Asian Provinces/Regions">
+        </div>
     </div>
 
     <div class="footer">
@@ -82,6 +95,7 @@
         <div class="resource">
             <a href="https://flagpedia.net/continent/asia">Flagpedia</a>
             <a href="https://en.wikipedia.org/wiki/Flags_of_Asia">Wikipedia</a>
+            <a href="https://commons.wikimedia.org/wiki/Historical_flags">Wikimedia</a>
             <a href="https://www.countryflags.com/asia/">Countryflags</a>
             <a href="https://flagsbook.com/flags-of-asia/">Flagsbook</a>
             <a href="https://www.mapchart.net/asia.html">MapChart</a>
