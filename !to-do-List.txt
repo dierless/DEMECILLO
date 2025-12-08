@@ -9,10 +9,12 @@
 	-	previous and next button (flag page)
 	-	expound flag history
 	-	whole asia map
+	-	interactive map (idk)
 	-	map for each flag page
 	-	legend
 	-	clickable legend links
 	-	proper about page
+	-	new title design
 
 	flag pages :
 -	(complete) Afghanistan
