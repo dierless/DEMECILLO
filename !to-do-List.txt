@@ -15,6 +15,7 @@
 	-	clickable legend links
 	-	proper about page
 	-	new title design
+	-	show more
 
 	flag pages :
 -	(complete) Afghanistan
@@ -26,7 +27,7 @@
 -	(complete) Brunei
 -	(complete) Cambodia
 -	(complete) China
--	(complete) Cyprus	NO MAP
+-	(complete) Cyprus	custom map
 -	(complete) Georgia
 -	(complete) Hong Kong
 -	(complete) India 
@@ -35,36 +36,36 @@
 -	(complete) Iraq
 -	(complete) Israel
 -	(complete) Japan
-Jordan
-Kazakhstan
-Kuwait
-Kyrgyzstan
-Laos
-Lebanon
+-	(complete) Jordan
+-	(complete) Kazakhstan
+-	(complete) Kuwait
+-	(complete) Kyrgyzstan
+-	(complete) Laos
+-	(complete) Lebanon
 - 	(complete) Malaysia
-Maldives
-Mongolia
-Myanmar (Burma)
-Nepal
+-	(complete) Maldives
+-	(complete) Mongolia
+-	(complete) Myanmar (Burma)
+-	(complete) Nepal
 - 	(complete) North Korea
-Oman
-Pakistan
-Palestine
+-	(complete) Oman
+-	(complete) Pakistan
+-	(complete) Palestine
 - 	(complete) Philippines
-Qatar
+-	(complete) Qatar
 - 	(complete) Russia
-Saudi Arabia
+-	(complete) Saudi Arabia
 - 	(complete) Singapore
 - 	(complete) South Korea
-Sri Lanka
-Syria
-Taiwan
-Tajikistan
+-	(complete) Sri Lanka
+-	(complete) Syria
+-	(complete) Taiwan
+-	(complete) Tajikistan
 - 	(complete) Thailand
 - 	(complete) Timor-Leste (East Timor)
-Turkey
-Turkmenistan
-United Arab Emirates
-Uzbekistan
+-	(complete) Turkey
+-	(complete) Turkmenistan
+-	(complete) United Arab Emirates
+-	(complete) Uzbekistan
 - 	(complete) Vietnam
 - 	(complete) Yemen
