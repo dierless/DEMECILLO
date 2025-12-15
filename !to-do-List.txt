@@ -1,3 +1,10 @@
+Flags of ASIA
+111 MB
+246 Files, 4 Folders
+187 Image Files
+55 HTML Files
+1 CSS File
+
 	each :
 	- 	local name (language + romanization)
 	- 	flag specifications (proportion, name of the flag and local name, adoption)
