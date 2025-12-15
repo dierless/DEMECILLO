@@ -4,6 +4,8 @@ Flags of ASIA
 187 Image Files
 55 HTML Files
 1 CSS File
+99.1% HTML
+0.9% CSS
 
 	each :
 	- 	local name (language + romanization)
@@ -75,4 +77,5 @@ Flags of ASIA
 -	(complete) United Arab Emirates
 -	(complete) Uzbekistan
 - 	(complete) Vietnam
+
 - 	(complete) Yemen
