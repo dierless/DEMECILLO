@@ -1,7 +1,7 @@
 Flags of ASIA
 111 MB
 246 Files, 4 Folders
-187 Image Files
+188 Image Files (51 flags, 30 history, 51 home, 54 maps, 1 title, 1 favicon)
 55 HTML Files
 1 CSS File
 99.1% HTML
@@ -79,3 +79,4 @@ Flags of ASIA
 - 	(complete) Vietnam
 
 - 	(complete) Yemen
+
