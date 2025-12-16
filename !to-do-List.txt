@@ -26,6 +26,18 @@ Flags of ASIA
 	-	new title design
 	-	show more
 
+	tabs :
+-	Home
+-	History
+-	Map
+-	Index
+
+-	Quiz
+-	Trivia
+-	Facts
+-	About
+-	Comparison
+
 	flag pages :
 -	(complete) Afghanistan
 -	(complete) Armenia
@@ -78,3 +90,4 @@ Flags of ASIA
 -	(complete) Uzbekistan
 - 	(complete) Vietnam
 - 	(complete) Yemen
+
