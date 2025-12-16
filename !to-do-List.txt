@@ -77,6 +77,4 @@ Flags of ASIA
 -	(complete) United Arab Emirates
 -	(complete) Uzbekistan
 - 	(complete) Vietnam
-
 - 	(complete) Yemen
-
